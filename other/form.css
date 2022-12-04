@@ -1,0 +1,97 @@
+@import 'style.css';
+
+
+
+.head-image-form {
+    background-image: url("./apply.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(13, 13, 54);
+    min-height: 75vh;
+}
+
+.form-box {
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 15%;
+ padding-top: 5%;
+ text-align: center;
+}
+
+.edu-text-1{
+    color: white;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.apply{
+    font-size: 5rem;
+}
+
+.apply-t{
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 5%;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid goldenrod;
+    transition: 1s;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+input:hover {
+    padding: 6%;
+    border-top: 2px solid gold;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.input {
+    padding: 5%;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid goldenrod;
+    transition: 1s;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: rgb(255, 11, 11);
+    background-color: rgb(15, 25, 65);
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.282);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 575px){
+    .edu-text-1{
+        color: white;
+        padding: 6px;
+        font-size: 1.5rem;
+        background-color: black;
+    }
+
+
+    .apply{
+        font-size: 2rem;
+    }
+}

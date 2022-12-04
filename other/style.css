@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+    margin: 0 ;
+    padding: 0;
+    background-color: rgb(13, 13, 54);
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+p {
+    line-height: 2rem;
+}
+
+
+/*------------------------  Haeding CSS Styling   */
+.school-text-color{
+    background-color: rgb(13, 13, 54);
+    padding: 2px;
+    color: white;
+}
+/*     Nav Bar */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(22, 25, 63);
+}
+
+/*    Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid goldenrod;
+}
+
+.school-head-text{
+    color: goldenrod;
+}
+
+.container {
+    /* margin-top: 90px; */
+    /* border: 2px solid red; */
+    color: black;
+    
+}
+
+.apply-link {
+    color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    background-color: rgb(13, 13, 54);
+}
+
+
+.head-image {
+    background-image: url("./head.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(13, 13, 54);
+    min-height: 75vh;
+}
+
+
+.edu-text{
+    font-size: 30px;
+    color: rgb(19, 207, 207);
+}
+
+/*------------------------ End of  Heading CSS Styling   */
+
+
+
+
+/*----------------         Welcome Section         */
+
+.welcome-section {
+
+    background-color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 35%;
+    padding-left: 5%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.clouds {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 100%;
+
+}
+
+.cloud-pop {
+    background-color: rgba(64, 64, 64, 0.757);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 30%;
+    text-align: center;
+    display: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+.cloud-text-sm{
+    font-size: 0.8rem;
+}
+
+
+.welcome-paragraph{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(105, 105, 105);
+}
+
+.welcome-paragraph-2{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(105, 105, 105);
+    display: none;
+}
+
+.headings-text{
+    color: goldenrod;
+}
+
+.headings-text-2{
+    color: goldenrod;
+}
+
+/*----------------End of Welcome Section         */
+
+
+
+
+/*-----------------   Our Classes  Styling        */
+
+.our-classes {
+    background-color: lightgray;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.other-card1,
+.other-card2{
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    padding: 5%;
+    background-color: rgb(255, 183, 0);
+    background-blend-mode:multiply;
+    color: white;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.294);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.other-card1:hover,
+.other-card2:hover {
+    width: 15%;
+}
+
+.no-line-height {
+    padding: 5%;
+}
+
+.other-card1 {
+    margin: 5%;
+    background-image: url("./classes.jpg");
+    
+    
+}
+
+.other-card2 {
+    background-image: url("./lab.jpg");
+   
+    
+}
+
+.our-classes-text,
+.science-lab-text{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    /* margin: 5%; */
+    background-color: rgba(0, 0, 0, 0.583);
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.design-text{
+    color: rgb(164, 164, 164);
+    font-size: 3rem;
+}
+
+/*///            End of Our Classes              */
+
+.our-courses{
+    text-align: center;
+    font-size: 4rem;
+    color: white !important;
+}
+
+
+
+/*---------------------      Section 2  ***/
+
+.main-container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    border: 2px solid;
+    margin-top: 5%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img-small {
+    max-width: 70%;
+   
+
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    padding: 10%;
+    margin: 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #0000002b;
+    transition: 1s;
+    position: relative;
+
+}
+
+.card1:hover, 
+.card2:hover, 
+.card3:hover, 
+.card4:hover, 
+.card5:hover, 
+.card6:hover, 
+.card7:hover{
+    background-color:lightgray ;
+}
+
+
+/*----------------         End of Section 2     */
+
+
+
+
+/*----------------         Parents Information   */
+.our-courses-sm {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+
+.parent-informations{
+    margin-top: 5%;
+    border: 3px solid;
+    background-color: white;
+    padding: 60px;
+    min-height: 30vh;
+    font-family: 'Roboto Slab', serif;
+   
+   
+}
+
+
+/*---------------- End of Parents Inforamtion     */
+
+li {
+    color: rgb(105, 105, 105);
+    list-style:disc;
+    line-height: 2rem;
+}
+
+
+
+/*----------------     Quotes Section Styling     */
+.quotes {
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.quote1,
+.quote2{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+
+}
+
+/*----------------   End of Quotes Section    */
+
+
+/*----------------Footer Section     */
+
+.footer {
+    margin-top: 15%;
+    padding-top: 5%;
+    background-color: rgb(17, 17, 49);
+    height:25vh ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:4px solid goldenrod;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.footer-text{
+    color: goldenrod;
+    list-style: none;
+}
+
+.footer-link{
+    width: 50px;
+    list-style: none;
+
+}
+
+.ham {
+    display: none;
+}
+/*----------------    End of footer    */
+
+@media all and (max-width:575px){
+    .container {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        width: 20px;
+        float: right;
+        margin: 5%;
+    }
+
+    .clouds {
+        display: none;
+    }
+    .school-head-text {
+        font-size: 0.6rem;
+    }
+
+    .apply-link {
+        color: goldenrod;
+        text-align: center;
+        cursor: pointer;
+        border: 2px solid goldenrod;
+        background-color: rgb(13, 13, 54);
+        font-size: 0.7rem;
+        padding: 2px;
+        width: 80px;
+        height: 20px;
+    }
+
+    .main-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid;
+        margin-top: 5%;
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        padding: 5%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .school-text{
+        font-size: 1.3rem;
+    }
+    .our-courses{
+        text-align: center;
+        font-size: 2rem;
+        color: white !important;
+    }
+
+    .our-classes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design-text{
+        font-size: 1.3rem;
+
+    }
+
+    .other-card1,
+    .other-card2{
+    height: 100px;
+    padding: 5%;
+    width: 50%;
+    margin-bottom: 10%;
+    font-size: 0.4rem;
+    }
+    .other-card1:hover,
+    .other-card2:hover{
+    height: 100px;
+    padding: 5%;
+    width: 50%;
+    }
+
+    .no-line-height
+    {
+        line-height: 0.9rem;
+        padding: 5%;
+    }
+
+    .no-line-height,
+    .our-classes-text,
+    .science-lab-text{
+
+        font-size: 0.7rem;
+    }
+
+/*  Head Center Text    */
+    .edu-text {
+        font-size: 1.3rem;
+    }
+
+/*  End of Head Center Text    */
+/*----------------Welcome Section         */
+
+.welcome-section {
+
+    background-color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+
+
+}
+
+.welcome-paragraph{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(105, 105, 105);
+    font-size:1rem;
+}
+
+.welcome-paragraph-2{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(105, 105, 105);
+    display: none;
+}
+
+.headings-text{
+    color: goldenrod;
+    font-size:1.4rem;
+}
+
+.headings-text-2{
+    color: goldenrod;
+    font-size:1.4rem;
+}
+
+/*----------------End of Welcome Section         */
+.our-courses-sm {
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+}
+
+.quotes {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.quote1,
+.quote2{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+
+.footer-link{
+    width: 30px;
+}
+    
+
+}
+

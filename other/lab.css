@@ -1,0 +1,243 @@
+@import "style.css";
+
+
+.head-image-lab-1{
+    background-image: url('');
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(13, 13, 54);
+    min-height: 75vh;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    float: right;
+    border-bottom-left-radius: 40%;
+}
+
+.head-image-lab-2{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(13, 13, 54);
+    min-height: 75vh;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    float: right;
+}
+
+.edu-text-1{
+    font-size: 80px;
+    color: rgb(13, 13, 13);
+    padding: 1%;
+}
+
+.edu-text-lab{
+    font-size: 40px;
+    color: rgb(19, 207, 207);
+}
+
+.image-effect-class{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.47);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.welcome-section-lab-1 {
+
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 35%;
+    padding-left: 5%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.welcome-section-lab-2 {
+
+    background-color: rgb(131, 131, 131);
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 35%;
+    padding-left: 5%;
+    position: relative;
+    overflow: hidden;
+    border-right: 4px solid goldenrod;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.225);
+
+}
+
+
+.welcome-paragraph-lab{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.p-1{
+    display: none;
+}
+
+.p-2{
+    display: none;
+}
+
+
+
+
+
+
+
+.testimonial {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tst-card1,
+.tst-card2,
+.tst-card3,
+.tst-card4 {
+    background-color: aliceblue;
+    padding: 6%;
+}
+
+
+.test-imgs{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+
+.apply-link-lab-1 {
+    color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    padding: 2%;
+    background-color: rgb(13, 13, 54);
+}
+
+.apply-link-lab-2 {
+    color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    padding: 2%;
+    background-color: rgb(13, 13, 54);
+}
+
+
+@media all and (max-width:575px){
+
+    .edu-text-1{
+        font-size: 20px;
+        color: rgb(13, 13, 13);
+        padding: 1%;
+    }
+
+    .edu-text-2{
+        font-size: 10px;
+        color: rgb(13, 13, 13);
+        padding: 1%;
+    }
+
+    .edu-text-lab{
+        font-size: 10px;
+        color: rgb(19, 207, 207);
+    }
+
+    .sm{
+        width: 45px;
+    }
+    
+
+
+    
+
+    .edu-text-class{
+        font-size: 20px;
+        color: rgb(19, 207, 207);
+        background-color: black;
+        padding: 1%;
+    }
+
+    .welcome-section-class {
+
+        background-color: white;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        position: relative;
+        overflow: hidden;
+    
+
+    }
+
+    .testimonial {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px;
+        grid-gap: 10px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .welcome-section-lab-1 {
+
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    
+    .welcome-section-lab-2 {
+    
+        background-color: rgb(131, 131, 131);
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        position: relative;
+        overflow: hidden;
+        border-right: 4px solid goldenrod;
+        box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.225);
+    
+    }
+    
+
+
+
+}
