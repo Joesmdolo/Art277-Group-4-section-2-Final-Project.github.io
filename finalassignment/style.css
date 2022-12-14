@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navigation bar start here */
+
+.navbar h1{
+    font-size: 22px;
+}
+
+.navbar ul{
+list-style-type: none;
+overflow: hidden;
+background-color: rgb(1, 43, 1);
+position: fixed;
+top: 0px;
+width: 95%;
+padding: 0px;
+margin-left: 2.5%;
+margin-top: 0;
+
+}
+
+.navbar ul li{
+    float: right;
+   
+}
+
+.navbar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+/* navigation end  here */
+
+/* the first page */
+
+.welcome {
+    width: 95%;
+    height: 700px;
+    background: url(images/vaccine.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    margin-left: 2.5%;
+    opacity: 100%;
+ 
+
+}
+.welcome h2{
+    display:inline-flex;
+    text-align: center;
+    justify-content: center;
+    color:gold;
+    font-size: 22px;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 60px;
+
+  
+}
+
+.welcome p{
+    margin-left: 5%;
+    font-size: 40px;
+    color: white;
+    width: 75%;
+
+}
+
+.btn1{
+    margin-left: 8%;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+
+.btn1 a{
+    font-size: 22px;
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn1 a:hover{
+    background-color: white;
+}
+
+
+
+
